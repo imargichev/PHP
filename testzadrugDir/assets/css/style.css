@@ -1,0 +1,90 @@
+#wrapper{
+    width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    background-color: #10a4ff;
+}
+.holder{
+    width: 403px;
+    height: 400px;
+    float: left;
+    display: inline;
+    margin-bottom: 76px;
+}
+
+.holder>img{
+    border: solid #ffe100 4px;
+    border-radius: 15px 0px 20px 0px;
+    margin: 2px 2px 2px;
+}
+
+input[type='checkbox'] {
+    width: 42px;
+    height: 42px;
+    margin-left: -47px;
+    text-align: center;
+    *overflow: hidden; }
+
+#txt{
+width: 98%;
+    margin: -2px 2px;
+}
+#inputs{
+
+}
+#form{
+    width: 65%;
+    padding-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    //border: solid black 5px;
+}
+img {
+    transition: -webkit-transform 0.25s ease;
+}
+
+img:active {
+    -webkit-transform: scale(2.5);
+}
+input[type="number"] {
+    width:50px;
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 72px;
+    padding-bottom: 22px;
+}
+/*
+
+
+.styled_check[type=checkbox] {
+    display:none;
+}
+.styled_check[type=checkbox] + label {
+    width: 46px;
+    height: 62px;
+    background: url("http://toni.tarasoft.bg/pics/assets/pics/no.png") no-repeat 0 2px;
+    background-size: 15px;
+    padding: 0 0 0 23px;
+    float: left;
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: normal;
+    min-height: 30px;
+}
+.styled_check[type=checkbox]:checked + label {
+    width: auto;
+    background: url("http://toni.tarasoft.bg/pics/assets/pics/yes.png") no-repeat 0 2px;
+    background-size: 15px;
+    padding: 0 0 0 23px;
+    float: left;
+    min-height: 30px;
+}
+.left{
+    float: left;
+}*/

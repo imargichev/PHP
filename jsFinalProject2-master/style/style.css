@@ -1,0 +1,151 @@
+/* Reset */
+
+body, div, h1, h2, h3, p, button, input, textarea, label, select{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: Arial;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+
+input, button, textarea, select{
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+/* Actual Style */
+
+.wrapper{
+	position: relative;
+	width: 60%;
+	height: auto;
+	margin: auto;
+}
+
+.box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.8rem;
+	background-color: #EEEEEE;
+	border: 1px solid #E0E0E0;
+	border-radius: 3px;
+	box-sizing: border-box;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	transition: .5s transform ease;
+}
+
+/* Input form style */
+
+.innerWrapper{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.inline{
+	display: block;
+	margin-top: 10px;
+	font-size: 0;
+}
+
+.inline p{
+	font-size: 1.6rem;
+	padding-bottom: 5px;
+}
+
+.inline input{
+	display: inline-block;
+	width: 49%;
+	height: 50px;
+	padding-left: 15px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+
+.inline input:nth-of-type(1){
+	margin-right: 2%;
+}
+
+.block input{
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	padding-left: 15px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+}
+
+.track{
+	position: relative;
+	display: block;
+	width: 90%;
+	height: 25px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0;
+	background-color: #E0E0E0;
+	border-radius: 25px;
+}
+
+.piece{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	background-color: #E0E0E0;
+}
+
+.colored{
+	background-color: #4CAF50;
+}
+
+.piece:after{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -12.5px;
+	content: '';
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background-color: #fff;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
+	z-index: 2;
+}
+
+.piece:last-child:after{
+	display: none;
+}
+
+.piece:first-child{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.piece:last-child{
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#results p{
+	text-align: center;
+	padding: 15px 0;
+	font-size: 1.6rem;
+}
+
